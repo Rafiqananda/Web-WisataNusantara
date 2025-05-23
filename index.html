@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Wisata Nusantara</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0077b6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px;
+      font-size: 18px;
+      color: #0077b6;
+    }
+
+    .card a {
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #e0e0e0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wisata Nusantara</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Destinasi Populer Indonesia</h2>
+    <div class="grid">
+      <div class="card"><a href="rajaampat.html"><img src="img/rajaampat.jpg" alt="Raja Ampat"><h3>Raja Ampat</h3></a></div>
+      <div class="card"><a href="bali.html"><img src="img/bali.jpg" alt="Bali"><h3>Bali</h3></a></div>
+      <div class="card"><a href="labuanbajo.html"><img src="img/labuanbajo.jpg" alt="Labuan Bajo"><h3>Labuan Bajo</h3></a></div>
+      <div class="card"><a href="bromo.html"><img src="img/bromo.jpg" alt="Bromo"><h3>Gunung Bromo</h3></a></div>
+      <div class="card"><a href="bunaken.html"><img src="img/bunaken.jpg" alt="Bunaken"><h3>Bunaken</h3></a></div>
+      <div class="card"><a href="borobudur.html"><img src="img/borobudur.jpg" alt="Borobudur"><h3>Candi Borobudur</h3></a></div>
+      <div class="card"><a href="komodo.html"><img src="img/komodo.jpg" alt="Komodo"><h3>Taman Nasional Komodo</h3></a></div>
+      <div class="card"><a href="toba.html"><img src="img/toba.jpg" alt="Danau Toba"><h3>Danau Toba</h3></a></div>
+      <div class="card"><a href="linow.html"><img src="img/linow.jpg" alt="Danau Linow"><h3>Danau Linow</h3></a></div>
+      <div class="card"><a href="seribu.html"><img src="img/seribu.jpg" alt="Kepulauan Seribu"><h3>Kepulauan Seribu</h3></a></div>
+      <div class="card"><a href="bukittinggi.html"><img src="img/bukittinggi.jpg" alt="Bukittinggi"><h3>Bukittinggi</h3></a></div>
+      <div class="card"><a href="pantaiora.html"><img src="img/pantaiora.jpg" alt="Pantai Ora"><h3>Pantai Ora</h3></a></div>
+      <div class="card"><a href="pergasingan.html"><img src="img/pergasingan.jpg" alt="Bukit Pergasingan"><h3>Bukit Pergasingan</h3></a></div>
+      <div class="card"><a href="tumpaksewu.html"><img src="img/tumpaksewu.jpg" alt="Tumpak Sewu"><h3>Air Terjun Tumpak Sewu</h3></a></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wisata Nusantara</p>
+  </footer>
+</body>
+</html>
